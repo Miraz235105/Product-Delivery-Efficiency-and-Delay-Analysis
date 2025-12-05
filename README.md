@@ -13,43 +13,42 @@ The dataset was reviewed to ensure no duplicates, inconsistencies, or missing va
 In the pre-analysis phase, initial exploration highlighted key trends affecting delivery outcomes. Shipment mode and warehouse block influence on-time performance, with certain modes and locations performing better. Multiple customer care calls often correlate with delays, while heavier or high-priority products tend to arrive on time. Early observations suggest possible links between customer rating, discount offered, and prior purchases with delivery efficiency. Overall, shipment mode, warehouse, product weight, and customer interactions appear to be the most influential factors, guiding deeper analysis of delays and operational patterns.
 ### In-Analysis
 **Key Patterns Observed:**
--Flight shipments have slightly higher on-time delivery rates than Ship and Road modes.
--Heavier or high-value products tend to be delivered on time more consistently, likely due to priority handling.
--Shipments with multiple customer care calls experience higher delays, indicating unresolved issues.
--High-volume discount periods may cause operational strain and delays.
+- Flight shipments have slightly higher on-time delivery rates than Ship and Road modes.
+- Heavier or high-value products tend to be delivered on time more consistently, likely due to priority handling.
+- Shipments with multiple customer care calls experience higher delays, indicating unresolved issues.
+- High-volume discount periods may cause operational strain and delays.
 **Preliminary Recommendations:**
--Prioritize Flight shipments for time-sensitive or high-priority deliveries.
--Optimize Ship and Road operations by reviewing bottlenecks, routes, and staffing.
--Monitor customer queries proactively, resolving issues faster to prevent escalation.
--Allocate additional resources during high-volume discount periods to reduce delays.
+- Prioritize Flight shipments for time-sensitive or high-priority deliveries.
+- Optimize Ship and Road operations by reviewing bottlenecks, routes, and staffing.
+- Monitor customer queries proactively, resolving issues faster to prevent escalation.
+- Allocate additional resources during high-volume discount periods to reduce delays.
 ### Post-Analysis and Insights
 **Key Findings:** Based on the completed analysis, several significant insights emerged:
--Although Ship mode handles the largest number of on-time deliveries, Flight has the highest on-time delivery rate.
--While most deliveries are on time, delays among Very Satisfied, Dissatisfied, and Neutral customers highlight service gaps that require targeted improvements to maintain satisfaction.
--Warehouse F has the highest number of on-time deliveries but also the highest number of delays, likely because it handles the largest volume overall.
--Heavy shipments dominate delays, making this group the biggest contributor to delays.
--Most Delayed Deliveries Come from Customers Who Called 3–4 Times.
--Although most shipments are Standard products, High-value shipments receive slightly better prioritization, resulting in fewer delays proportionally.
--All delayed orders occur in the 1–10% discount range, and the same discount range has the highest on-time delivery rate.
--Customers with 3 prior purchases had more on-time deliveries than delayed deliveries.
+- Although Ship mode handles the largest number of on-time deliveries, Flight has the highest on-time delivery rate.
+- While most deliveries are on time, delays among Very Satisfied, Dissatisfied, and Neutral customers highlight service gaps that require targeted improvements to maintain satisfaction.
+- Warehouse F has the highest number of on-time deliveries but also the highest number of delays, likely because it handles the largest volume overall.
+- Heavy shipments dominate delays, making this group the biggest contributor to delays.
+- Most Delayed Deliveries Come from Customers Who Called 3–4 Times.
+- Although most shipments are Standard products, High-value shipments receive slightly better prioritization, resulting in fewer delays proportionally.
+- All delayed orders occur in the 1–10% discount range, and the same discount range has the highest on-time delivery rate.
+- Customers with 3 prior purchases had more on-time deliveries than delayed deliveries.
 ### Data Visualizations & Charts
 Visual representations were created in Microsoft Excel to simplify complex data relationships and highlight key patterns related to the delivery status. The Clustered Column Chart showed Delivery Timeliness by Transport Mode, Delivery Performance by Discount Range, Delivery Performance Across Warehouses, the Pie Chart showed Overall Delivery Performance, the Bar Chart showed Frequency of Complaints among Delayed Orders, and the Stacked Column Chart showed Top Prior Purchases by Delivery Performance.
 A consolidated dashboard provides an at-a-glance view of how shipment, customer, and product variables interact with on-time delivery, helping stakeholders quickly identify high-risk segments and factors contributing to delays.
 ### Recommendations
 **Actionable Insights:**
--Prioritize operational improvements in Ship and Road deliveries.
--Optimize handling, routing, or consider staggered scheduling.
--Implement targeted monitoring or priority handling.
--Review resource allocation during high-volume standard discount periods.
--Establish faster issue resolution for multiple complaints.
--Focus on process improvements, staffing, or equipment upgrades.
+- Prioritize operational improvements in Ship and Road deliveries.
+- Optimize handling, routing, or consider staggered scheduling.
+- Implement targeted monitoring or priority handling.
+- Review resource allocation during high-volume standard discount periods.
+- Establish faster issue resolution for multiple complaints.
+- Focus on process improvements, staffing, or equipment upgrades.
 **Optimizations / Business Decisions:**
--Prioritize high-risk segments (heavy shipments, high-volume warehouses, standard products) for resources.
--Consider predictive scheduling to match shipment mode and product type with delivery reliability.
--Use dashboards to monitor real-time performance and intervene promptly in delayed shipments.
+- Prioritize high-risk segments (heavy shipments, high-volume warehouses, standard products) for resources.
+- Consider predictive scheduling to match shipment mode and product type with delivery reliability.
+- Use dashboards to monitor real-time performance and intervene promptly in delayed shipments.
 ### Conclusion
-The analysis shows Ship mode and heavy shipments contribute most to delays, while Flight and medium-weight shipments are more reliable. Repeat customers and low-discount orders face higher delays, with Warehouse F being critical due to its volume. Limitations include a lack of external and granular operational data. Future research should explore real-time tracking, customer segmentation, and strategies to optimize high-volume and heavy shipments.
-Explore the full technical report and dataset on GitHub: 
+The analysis shows Ship mode and heavy shipments contribute most to delays, while Flight and medium-weight shipments are more reliable. Repeat customers and low-discount orders face higher delays, with Warehouse F being critical due to its volume. Limitations include a lack of external and granular operational data. Future research should explore real-time tracking, customer segmentation, and strategies to optimize high-volume and heavy shipments. 
 ### References
 Dataset Source: [E-Commerce Shipping Data]([url](https://www.kaggle.com/datasets/prachi13/customer-analytics?)).
 Tools Used: Microsoft Excel (Pivot Tables, Charts, Dashboard).
